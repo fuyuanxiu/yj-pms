@@ -1,0 +1,176 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>大数据统计展示大屏</title>
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/example-fluid-layout.css" rel="stylesheet">
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="js/jquery.min.js"></script>
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- <link href="css/index.css" rel="stylesheet" /> -->
+		
+		<link href="css/tablebox.css" rel="stylesheet" />
+		<link href="css/picture.css" rel="stylesheet" />
+		
+		<script type="text/javascript" src="js/echarts.min.js"></script>
+	</head>
+	<body>
+		<header>
+		<div class="row">
+		<div class="col-md-3 col-sm-3 col-lg-3 ">
+		</div>
+		<div class="col-md-6 col-sm-6 col-lg-6 ">
+		大数据统计展示大屏
+		</div>
+		<div class="col-md-3 col-sm-3 col-lg-3 ">
+
+		</div>
+		</div>
+		</header>
+		<div class="container-fluid">
+                
+                <div class="row" >
+				<div class="picturebox m-20"  >
+						<!-- <div class="title">标题标题2</div> -->
+						<!-- <div class="picturebox_con" > -->
+						<div class="tablebox">
+					        <div class="tbl-header">
+					            <table border="0" cellspacing="0" cellpadding="0">
+					                <thead>
+					                    <tr>
+					                        <th>排名</th>
+					                        <th>地市</th>
+					                        <th>销售收入(万元)</th>
+					                        <th>同比(%)</th>
+					                        <th>环比(%)</th>
+					                        <th>销售计划(万元)</th>
+					                        <th>计划完成率(%)</th>
+					                    </tr>
+					                </thead>
+					                <tbody style="opacity:0;"></tbody>
+					            </table>
+					        </div>
+					        
+					        <div class="tbl-body">
+					            <table border="0" cellspacing="0" cellpadding="0">
+					                <thead>
+					                    <tr>
+					                        <th>排名</th>
+					                        <th>地市</th>
+					                        <th>销售收入(万元)</th>
+					                        <th>同比(%)</th>
+					                        <th>环比(%)</th>
+					                        <th>销售计划(万元)</th>
+					                        <th>计划完成率(%)</th>
+					                    </tr>
+					                </thead>
+					                <tbody></tbody>
+					            </table>
+					        </div>
+					    </div>
+						<!-- </div> -->
+					</div>	
+                </div> 
+               <div class="row" >
+				<div class="picturebox m-20"  >
+						 <div class="title"></div> 
+						<div class="picturebox_px" id="box3_right" ></div>
+					</div>	
+                </div> 
+                 <div class="row" >
+	                 <div class="picturebox-bom m-20" >
+		                 <div class="picturebox_con1">
+			                 <div class="row no-gutter" >
+								<div class="col-xs-3 col-md-3 col-lg-3" >
+									<div class="panel panel-primary" ">
+									  <div class="panel-heading">生产组长</div>
+									  <div class="panel-body">
+									    <div class="pan-left">
+									       <span>姓名:XXXX</span>
+									        <HR style= " border: 4 dashed #987cb9" width ="80%" color =#987 cb 9 SIZE = 1>
+									        <span>姓名:XXXX</span>
+									        <HR style= " border: 4 dashed #987cb9" width ="80%" color =#987 cb 9 SIZE = 1>
+									        <span>姓名:XXXX</span>
+									        <HR style= " border: 4 dashed #987cb9" width ="80%" color =#333 cb 9 SIZE = 3>
+									    </div>
+									    <div class="pan-right">
+									       <img alt="" src="">
+									    </div>
+									  </div>
+									</div>
+								</div>	
+								<div class="col-xs-3 col-md-3 col-lg-3">
+									<div class="panel panel-primary" ">
+									  <div class="panel-heading">生产组长</div>
+									  <div class="panel-body">
+									    <div class="pan-left">
+									       <span>姓名:XXXX</span>
+									        <HR style= " border: 4 dashed #987cb9" width ="80%" color =#987 cb 9 SIZE = 1>
+									        <span>姓名:XXXX</span>
+									        <HR style= " border: 4 dashed #987cb9" width ="80%" color =#987 cb 9 SIZE = 1>
+									        <span>姓名:XXXX</span>
+									        <HR style= " border: 4 dashed #987cb9" width ="80%" color =#333 cb 9 SIZE = 3>
+									    </div>
+									    <div class="pan-right">
+									       <img alt="" src="">
+									    </div>
+									  </div>
+									</div>
+								</div>
+								<div class="col-xs-3 col-md-3 col-lg-3">
+									<div class="panel panel-primary" ">
+									  <div class="panel-heading">生产组长</div>
+									  <div class="panel-body">
+									    <div class="pan-left">
+									       <span>姓名:XXXX</span>
+									        <HR style= " border: 4 dashed #987cb9" width ="80%" color =#987 cb 9 SIZE = 1>
+									        <span>姓名:XXXX</span>
+									        <HR style= " border: 4 dashed #987cb9" width ="80%" color =#987 cb 9 SIZE = 1>
+									        <span>姓名:XXXX</span>
+									        <HR style= " border: 4 dashed #987cb9" width ="80%" color =#333 cb 9 SIZE = 3>
+									    </div>
+									    <div class="pan-right">
+									       <img alt="" src="">
+									    </div>
+									  </div>
+									</div>
+								</div>
+								<div class="col-xs-3 col-md-3 col-lg-3">
+									<div class="panel panel-primary" ">
+									  <div class="panel-heading">生产组长</div>
+									  <div class="panel-body">
+									    <div class="pan-left">
+									       <span>姓名:XXXX</span>
+									        <HR style= " border: 4 dashed #987cb9" width ="80%" color =#987 cb 9 SIZE = 1>
+									        <span>姓名:XXXX</span>
+									        <HR style= " border: 4 dashed #987cb9" width ="80%" color =#987 cb 9 SIZE = 1>
+									        <span>姓名:XXXX</span>
+									        <HR style= " border: 4 dashed #987cb9" width ="80%" color =#333 cb 9 SIZE = 3>
+									    </div>
+									    <div class="pan-right">
+									       <img alt="" src="">
+									    </div>
+									  </div>
+									</div>
+								</div>
+							</div>
+						</div>
+	                </div>
+                </div>
+                
+        </div>
+ 		<script type="text/javascript" src="js/tablebox.js"></script>
+		<!-- <script type="text/javascript" src="js/box1.js"></script>
+		<script type="text/javascript" src="js/box2.js"></script>
+		<script type="text/javascript" src="js/box3_left.js"></script>-->
+		<script type="text/javascript" src="js/box3_right.js"></script>
+		<!--<script type="text/javascript" src="js/box4.js"></script>
+		<script type="text/javascript" src="js/box5.js"></script> -->
+		<!-- 0.125rem -->
+	</body>
+</html>
